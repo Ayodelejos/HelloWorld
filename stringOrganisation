@@ -1,0 +1,13 @@
+#organisze-sort alphabetically, sort (reserse= True), reverse
+beatles=['here','comes','the','sun']
+print(beatles)
+beatles.sort()# goes from A-Z
+print(beatles)# 1st way to reverse
+beatles.reverse()
+print(beatles)
+#2nd way to reverse
+beatles.sort(reverse=True)#goes form z to A
+print(beatles)
+#works with string only- numbers can not be sorted
+num=[2,10,100,50]
+print(num.sort())
